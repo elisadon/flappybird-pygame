@@ -269,7 +269,7 @@ pygame.init() # initialize pygame
 
 #now for background music
 pygame.mixer.init()
-pygame.mixer.music.load("flappy_theme.ogg")
+pygame.mixer.music.load("flappy-theme.mp3")
 pygame.mixer.music.set_volume(0.4) # going from 0.0 - 0.4
 pygame.mixer.music.play(-1) #-1 = loop infinitely, will stop when collision
 
@@ -329,8 +329,4 @@ while True:
 
    pygame.display.update()
    clock.tick(60)
-
-
-
-
 
